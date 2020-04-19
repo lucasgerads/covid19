@@ -6,21 +6,19 @@ const Footer = props => (
     <section>
       <h2>Aliquam sed mauris</h2>
       <p>
-        Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
-        magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras
-        aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae
-        tincidunt odio.
+      Alle Daten wurden aus den Pressemittelungen der Stadt Aachen genommen und in einem Google Spreadsheet gesammlt. Die Graphen werden mit <a href="https://www.everviz.com/">Everviz.</a> erstellt. Die Webseite ist mit dem <a href="https://www.gatsbyjs.org/">Gatsbyjs</a> Framework erstellt worden und wird auf <a href="https://www.netlify.com/">Netlify</a> gehostet. Das Design beruht auf einem Template von <a href="https://html5up.net/">HTML5Up</a>. 
+      Der Sourecode dieser Seite ist opensource und in meine <a href="https://github.com/lucasgerads/covid19">Github account</a> zu finde.      
       </p>
-      <ul className="actions">
+      {/*<ul className="actions">
         <li>
           <Link to="/generic" className="button">
             Learn More
           </Link>
         </li>
-      </ul>
+</ul>*/}
     </section>
     <section>
-      <h2>Etiam feugiat</h2>
+      {/*<h2>Etiam feugiat</h2>
       <dl className="alt">
         <dt>Address</dt>
         <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
@@ -30,43 +28,28 @@ const Footer = props => (
         <dd>
           <a href="https://codebushi.com">information@untitled.tld</a>
         </dd>
-      </dl>
+      </dl>*/}
       <ul className="icons">
         <li>
           <a
-            href="https://twitter.com/huntaroSan"
+            href="https://twitter.com/lucasgerads"
             className="icon fa-twitter alt"
           >
             <span className="label">Twitter</span>
           </a>
         </li>
         <li>
-          <a href="https://codebushi.com" className="icon fa-facebook alt">
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://codebushi.com" className="icon fa-instagram alt">
-            <span className="label">Instagram</span>
-          </a>
-        </li>
-        <li>
           <a
-            href="https://github.com/codebushi/gatsby-starter-stellar"
+            href="https://github.com/lucasgerads/covid19"
             className="icon fa-github alt"
           >
             <span className="label">GitHub</span>
           </a>
         </li>
-        <li>
-          <a href="https://codebushi.com" className="icon fa-dribbble alt">
-            <span className="label">Dribbble</span>
-          </a>
-        </li>
       </ul>
     </section>
     <p className="copyright">
-      &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+      &copy; <a href="https://twitter.com/lucasgerads">Lucas Gerads </a>.
     </p>
   </footer>
 )
