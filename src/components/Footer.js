@@ -4,7 +4,9 @@ import React from 'react'
 const Footer = props => (
   <footer id="footer">
     <section>
-      <h2>Aliquam sed mauris</h2>
+      <h2>
+       Über diese Seite 
+      </h2>
       <p>
       Alle Daten wurden aus den Pressemittelungen der Stadt Aachen genommen und in einem Google Spreadsheet gesammlt. Die Graphen werden mit <a href="https://www.everviz.com/">Everviz.</a> erstellt. Die Webseite ist mit dem <a href="https://www.gatsbyjs.org/">Gatsbyjs</a> Framework erstellt worden und wird auf <a href="https://www.netlify.com/">Netlify</a> gehostet. Das Design beruht auf einem Template von <a href="https://html5up.net/">HTML5Up</a>. 
       Der Sourecode dieser Seite ist opensource und in meine <a href="https://github.com/lucasgerads/covid19">Github account</a> zu finde.      
