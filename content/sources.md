@@ -1,11 +1,8 @@
 ---
-title: "Sources"
+title: "Quellen"
 date: "2017-08-21"
 element: "elem4"
 order: "4"
 ---
 
-Do Pandas eat bananas? Check out this short video that shows that yes! pandas do
-seem to really enjoy bananas!
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4SZl1r2O_bY" frameborder="0" allowfullscreen></iframe>
+Alle Daten wurden aus den Pressemittelungen der Stadt Aachen genommen und in einem Google Spreadsheet gesammlt. Die Graphen werden mit [Everviz](https://www.everviz.com/) erstellt. Die Webseite ist mit dem [Gatsbyjs](https://www.gatsbyjs.org/) Framework erstellt worden und wird of [Netlify](https://www.netlify.com/) gehostet. Das Design beruht auf einem Template von [HTML5Up](https://html5up.net/).
